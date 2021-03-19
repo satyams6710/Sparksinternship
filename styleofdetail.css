@@ -1,0 +1,94 @@
+.img{
+    background-image: url(topnavpic.jpeg);
+    background-position: center;
+    background-size: cover;
+    min-height: 240px;
+    margin-top:-10px;
+}
+div.upperbox{
+    
+    line-height: 220px;
+    font-size:46px;
+    overflow:hidden;
+    
+    margin-top:-52px;
+    box-shadow:5px 5px 15px 12px;
+    
+    font-weight: bold;
+    color:rgb(0, 156, 21);  
+}
+.back{
+    background-color: #4CAF50; /* Green */
+    border: 1px solid;
+    border-color:#302d2d;
+    color:black;
+    font-size: 28px;
+    
+    position:relative;
+       top:-45px;
+       left:35px;
+}
+div.body{
+    border:2px;
+    border-style:solid;
+    border-color: black;
+height:700px;
+background-color: rgb(214, 250, 141);
+margin-top: -10px;
+padding-top: -5px;
+box-shadow:5px 10px 15px 12px;
+    background-position: center;
+    background-size:cover;
+  
+}
+div.heading{
+    font-size: 30px;
+    display:flex;
+    justify-content: center;
+}
+.detailtable{
+    width:1000px;
+    margin:auto;
+    font-size:23px;
+    
+    display:flex;
+    justify-content: center;
+}
+.detailtable,tr,th{
+    border: 10px solid  #4CAF50;
+    border-collapse: collapse;
+    text-align: left;
+}
+.payinfo{
+    display:flex; 
+     width: 88.5%;
+     padding: 70px;
+   border: 10px solid #ccc;
+   border-block-width: 5px;
+   border-radius: 4px;
+   box-sizing: border-box 5px;
+   flex-direction:column;
+   font-size:30px;
+   
+   
+ }
+ .btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px red;
+    position:relative;
+    left:520px;
+    top:30px;
+}
+input {
+    
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  }
